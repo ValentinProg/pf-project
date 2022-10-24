@@ -10,7 +10,7 @@ function Footer() {
     <div className='footer'>
         <div className='socialMedia'> 
             <Instagram/>
-            <GitHub/>
+            <a href="https://github.com/ValentinProg"><GitHub/></a>
             <Facebook/>
             <LinkedIn/>
         </div>
