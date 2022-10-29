@@ -2,8 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../../helpers/ProjectList";
 import { GitHub } from "@material-ui/icons";
-import './ProjectDisplay.css'
-
+import "./ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -11,11 +10,16 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <a href={project.url}><img src={project.image}/></a>
+      <a href={project.url}>
+        <img src={project.image} />
+      </a>
       <p>
-        <b>Skills:</b>{project.skills}
+        <b>Skills:</b>
+        {project.skills}
       </p>
-    <GitHub/>
+      <a href={project.github}>
+        <GitHub />
+      </a>
     </div>
   );
 }

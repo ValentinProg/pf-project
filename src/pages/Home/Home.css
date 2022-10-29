@@ -1,37 +1,72 @@
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+    /* font-family: "Arial", sans-serif; */
     color: #3e497a;
+    /* background-image: url('/src/assets/img-1.jpg'); */
   }
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0;
+
+    /* background-color: #21325e; */
+
+    
+
+    background: 	#313131;
+    
+    color: white;
+
+    /* background-image: url('/src/assets/img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
   }
   
   .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Bebas Neue', cursive; */
     font-size: 80px;
-    color: #e9d35b;
-    height: 50px;
+    /* color: #e9d35b; */
+    color: skyblue;
+    height: 200px;
+   
+
+    text-align: left;
+    width: 80%;
+    margin-bottom: 0;
   }
   
   .about .prompt {
     width: 40%;
     font-size: 30px;
+    width: 80%;
+   margin-bottom: 200px;
+    
   }
-  .prompt svg {
+
+  .prompt p {
+    
+    text-align: left;
+    width: 80%;
+  }
+
+  .promptt svg {
     font-size: 60px;
     margin: 5px;
     color: white;
+    text-align: center;
+    margin-bottom: 40px;
   }
   
   .skills {
@@ -41,22 +76,29 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: #313131;
+    margin: 30px 0 30px 0;
   }
   
   .skills h1 {
-    color: #3e497a;
+   
+   
+  margin-bottom: -70px;
+   margin-top: 0px; 
   }
   
   .skills .list {
     list-style: none;
     width: 60%;
+    /* margin: 50px; */
   }
   
   .list span {
     font-size: 20px;
+    
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 950px) {
     .about h2 {
       font-size: 40px;
     }
