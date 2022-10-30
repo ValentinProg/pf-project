@@ -2,15 +2,16 @@
     width: 100%;
     align-items: center;
     font-family: 'Oswald', sans-serif;
-    
+    min-height: calc(100vh - 320px);
+    /* min-height: calc(100vh - 320px); */
     /* font-family: "Arial", sans-serif; */
-    color: #3e497a;
+
     /* background-image: url('/src/assets/img-1.jpg'); */
   }
   
   .about {
     width: 100%;
-    /* height: calc(100vh - 100px); */
+  
     height: auto;
     display: flex;
     flex-direction: column;
@@ -51,9 +52,24 @@
     width: 40%;
     font-size: 30px;
     width: 80%;
-   margin-bottom: 200px;
+   margin-bottom: 100px;
     
   }
+
+
+
+.prompt button { 
+  background-color: transparent;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  border: 1px solid #fff; 
+  transition: all 0.3s ease-out;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 60px;
+  width: 150px; 
+  margin: 120px 20px 0px 10px;
+}
 
   .prompt p {
     
@@ -70,7 +86,9 @@
   }
   
   .skills {
+  
     font-size: 35px;
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -78,6 +96,7 @@
     align-items: center;
     color: #313131;
     margin: 30px 0 30px 0;
+    
   }
   
   .skills h1 {
@@ -119,4 +138,8 @@
     .headline {
       font-size: 30px;
     }
+    .prompt button {
+      margin: 10px;
+    }
+
   }

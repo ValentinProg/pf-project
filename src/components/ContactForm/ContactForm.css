@@ -1,0 +1,68 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 130px;
+
+}
+
+.contactForm input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  /* background-color: #f0f0f0; */
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.contactForm textarea {
+  width: 100%;
+  font-size: 30px;
+  margin-right: 20px;
+
+  background-color: #f0f0f0;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.contactForm span {
+  font-size: 20px;
+}
+
+button {
+  font-family: "Bebas Neue", cursive;
+  margin-top: 30px;
+  background-color: #313131;
+  color: white;
+  border: 1px solid #313131;
+  transition: all 0.3s ease-out;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  font-size: large;
+}
+
+button:hover,
+button:active {
+  background-color: skyblue;
+  border-color: skyblue;
+}
+
+/* button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+} */
+
+@media only screen and (max-width: 800px) {
+  .formWrapper {
+    padding: 40px;
+  }
+}

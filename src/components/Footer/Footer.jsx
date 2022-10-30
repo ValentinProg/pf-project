@@ -9,9 +9,9 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'> 
-            <Instagram/>
+            {/* <Instagram/> */}
             <a href="https://github.com/ValentinProg"><GitHub/></a>
-            <Facebook/>
+            {/* <Facebook/> */}
             <LinkedIn/>
         </div>
         <p>&copy; 2022 valentin.com</p>
