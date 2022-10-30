@@ -1,145 +1,132 @@
 .home {
-    width: 100%;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
-    min-height: calc(100vh - 320px);
-    /* min-height: calc(100vh - 320px); */
-    /* font-family: "Arial", sans-serif; */
+  width: 100%;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  min-height: calc(100vh - 320px);
+  /* min-height: calc(100vh - 320px); */
+  /* font-family: "Arial", sans-serif; */
 
-    /* background-image: url('/src/assets/img-1.jpg'); */
-  }
-  
-  .about {
-    width: 100%;
-  
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  /* background-image: url('/src/assets/img-1.jpg'); */
+}
 
-    /* background-color: #21325e; */
+.about {
+  width: 100%;
 
-    
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    background: 	#313131;
-    
-    color: white;
+  /* background-color: #21325e; */
 
-    /* background-image: url('/src/assets/img-1.jpg');
+  background: #313131;
+
+  color: white;
+
+  /* background-image: url('/src/assets/img-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; */
-  }
-  
-  .about h2 {
-    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: 'Oswald', sans-serif;
-    /* font-family: 'Bebas Neue', cursive; */
-    font-size: 80px;
-    /* color: #e9d35b; */
-    color: skyblue;
-    height: 200px;
-   
+}
 
-    text-align: left;
-    width: 80%;
-    margin-bottom: 0;
-  }
-  
-  .about .prompt {
-    width: 40%;
-    font-size: 30px;
-    width: 80%;
-   margin-bottom: 100px;
-    
-  }
+.about h2 {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Oswald", sans-serif;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-size: 80px;
+  /* color: #e9d35b; */
+  color: skyblue;
+  height: 200px;
 
+  text-align: left;
+  width: 80%;
+  margin-bottom: 0;
+}
 
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+  width: 80%;
+  margin-bottom: 100px;
+}
 
-.prompt button { 
+.prompt button {
   background-color: transparent;
   font-family: "Bebas Neue", cursive;
   color: #fff;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
   transition: all 0.3s ease-out;
   border-radius: 4px;
   cursor: pointer;
   height: 60px;
-  width: 150px; 
+  width: 150px;
   margin: 120px 20px 0px 10px;
 }
 
-  .prompt p {
-    
-    text-align: left;
+.prompt p {
+  text-align: left;
+  width: 80%;
+}
+
+.promptt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills {
+  font-size: 30px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #313131;
+  margin: 30px 0 30px 0;
+}
+
+.skills h1 {
+  margin-bottom: -70px;
+  margin-top: 0px;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+  /* margin: 50px; */
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
     width: 80%;
   }
 
-  .promptt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
   .skills {
-  
-    font-size: 35px;
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: #313131;
-    margin: 30px 0 30px 0;
-    
+  .headline {
+    font-size: 30px;
   }
-  
-  .skills h1 {
-   
-   
-  margin-bottom: -70px;
-   margin-top: 0px; 
+  .prompt button {
+    margin: 10px;
   }
-  
-  .skills .list {
-    list-style: none;
-    width: 60%;
-    /* margin: 50px; */
-  }
-  
-  .list span {
-    font-size: 20px;
-    
-  }
-  
-  @media only screen and (max-width: 950px) {
-    .about h2 {
-      font-size: 40px;
-    }
-  
-    .about .prompt {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .headline {
-      font-size: 30px;
-    }
-    .prompt button {
-      margin: 10px;
-    }
-
-  }
+}

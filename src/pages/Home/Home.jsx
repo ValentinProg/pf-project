@@ -4,6 +4,7 @@ import { LinkedIn } from "@material-ui/icons";
 import { Email } from "@material-ui/icons";
 import { GitHub } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+import  CV  from '../../assets/CV.pdf'
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
         <div className="prompt">
           <p> A software developer with a passion for learning and <br></br>creating.</p>  
           <Link to="/contact"><button>contact me</button></Link>
-          <button>Download CV</button>
+          <a href={CV} download={CV}><button>Download CV</button></a>
         </div>
         {/* <div className="promptt">
         <LinkedIn />
