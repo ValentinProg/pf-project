@@ -57,7 +57,7 @@ const ContactForm = () => {
       </div>
       <div className="sentMes">
         {done &&
-          "Thank you! Your message has been successfully sent. I will contact you soon"}
+          "Thank you! Your message has been successfully sent. I will contact you soon."}
       </div>
     </form>
   );
